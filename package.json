@@ -1,0 +1,27 @@
+{
+  "name": "discord-timezone-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "execute": "node --import './entry.mjs'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fluvial/cors": "^0.4.6",
+    "@fluvial/csp": "^0.4.6",
+    "@types/node": "^20.11.0",
+    "fluvial": "link:../fluvial/packages/core",
+    "playwright": "^1.40.1",
+    "temporal-polyfill": "^0.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "temporal-spec": "^0.2.0"
+  }
+}

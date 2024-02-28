@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Wingdings";
+    src: url("/Wingdings.woff") format('woff'),
+        url("/Wingdings.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aurebesh AF";
+    src: url("/AurebeshAfCanon-K7Ope.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    line-height: 1;
+}
+
+.wingdings {
+    font-family: "Wingdings", wingdings, webdings, sans-serif;
+}
+
+.aurebesh {
+    font-family: "Aurebesh AF", sans-serif;
+}
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #333;
+}
+
+thead tr {
+    border-bottom-width: 2px;
+}
+
+td,
+th {
+    padding: 10px 15px;
+}
+
+td:first-of-type,
+th:first-of-type {
+    padding-left: 0;
+    text-align: end;
+}
+
+td:last-of-type,
+th:last-of-type {
+    padding-right: 0;
+    text-align: start;
+    border-left: 1px dashed #888;
+}
